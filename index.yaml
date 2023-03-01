@@ -26,6 +26,8 @@ entries:
     - email: containers@bitnami.com
       name: Bitnami
     name: nginx
+    urls:
+    - https://tailwindsorg.github.io/opensource/nginx-9.9.4.tgz
     sources:
     - https://github.com/bitnami/bitnami-docker-nginx
     - https://www.nginx.org
@@ -55,6 +57,8 @@ entries:
     - email: containers@bitnami.com
       name: Bitnami
     name: mysql
+    urls:
+    - https://tailwindsorg.github.io/opensource/mysql-8.8.27.tgz
     sources:
     - https://github.com/bitnami/bitnami-docker-mysql
     - https://mysql.com
@@ -85,6 +89,8 @@ entries:
     - email: cedric@desaintmartin.fr
       name: desaintmartin
     name: redis
+    urls:
+    - https://tailwindsorg.github.io/opensource/redis-16.5.4.tgz
     sources:
     - https://github.com/bitnami/bitnami-docker-redis
     version: 16.5.4
@@ -111,6 +117,8 @@ entries:
     - email: containers@bitnami.com
       name: Bitnami
     name: rabbitmq
+    urls:
+    - https://tailwindsorg.github.io/opensource/rabbitmq-8.30.1.tgz
     sources:
     - https://github.com/bitnami/bitnami-docker-rabbitmq
     - https://www.rabbitmq.com
